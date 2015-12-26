@@ -1,0 +1,8 @@
+[package]
+
+name = "jsonpp"
+version = "0.0.1"
+authors = [ "Jon Morehouse <morehousej09@gmail.com>" ]
+
+[dependencies]
+rustc-serialize = "0.3.16"
