@@ -28,4 +28,11 @@ Some archive files embed many different json objects as single line, json string
 ```bash
 $ echo '{"key": "value"}\n{"key":"value"}' | ./target/debug/jsonpp -l
 ```
-
+```bash
+{
+  "key": "value"
+}
+{
+  "key": "value"
+}
+```
